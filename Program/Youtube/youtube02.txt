@@ -95,6 +95,8 @@ public class HttpClientTest {
 
     }
 
+
+    /*
     //テスト用再起呼び出しによる再生リスト内の動画取得
     public static void testMethod() {
         totalResults = (int) playlist_information.get(3);
@@ -113,6 +115,7 @@ public class HttpClientTest {
             extractPlaylistItemsInformation(playlistItems_json_string, itemNum, playlistItems_list);
         }
     }
+    */
 
 
     //YoutubeDataAPIを使用して再生リストのJSON文字列を返す
